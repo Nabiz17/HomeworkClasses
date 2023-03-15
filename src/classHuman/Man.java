@@ -6,5 +6,8 @@ public class Man extends Human {
     super(name);
   }
 
-
+  @Override
+  public String toString() {
+    return "Мужчина по имени " + getName();
+  }
 }
