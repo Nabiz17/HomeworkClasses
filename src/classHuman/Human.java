@@ -27,13 +27,6 @@ public class Human {
   public void setName(String name) {
     this.name = name;
   }
-  //public class StringNameOut {
-  //    public static void main(String[] args) {
-  //        Human max = new Human("Макс");
-  //        String out = "Java объект: " + max;
-  //        System.out.println(out);
-  //        // Вывод: Java объект: Человек с именем Макс
-  //    }
 
   public void humanGreat() {
     System.out.println("Я родился!");
