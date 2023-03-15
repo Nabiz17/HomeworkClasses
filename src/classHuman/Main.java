@@ -6,7 +6,7 @@ public class Main {
     Human max = new Human("Максим");
     Human anna = new Human("Анна");
     Human egor = new Man("Егор");
-    Human ira = new Women("Ира");
+    Human ira = new Woman("Ира");
 
 
     System.out.println(max);
