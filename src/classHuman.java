@@ -11,5 +11,19 @@ public class classHuman {
   //
   //Метод "приветствие" класса "Женщина" должен выводить строку: "Я родилась!"
 
+ private String name;
+
+  public void Human(String name) {
+    this.name = name;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
 
 }
