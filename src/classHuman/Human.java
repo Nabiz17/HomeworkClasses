@@ -26,4 +26,12 @@ public class classHuman {
   }
 
 
+  @Override
+  public String toString() {
+    return "Человек по имени " + name;
+  }
 }
+
+
+
+
