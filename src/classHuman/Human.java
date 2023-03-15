@@ -1,4 +1,6 @@
-public class classHuman {
+package classHuman;
+
+public class Human {
   //Создайте класс "Человек", конструктор которого принимает имя.
   //
   //При попытке вывести объект этого класса на экран должна выводиться строка "Человек по имени ...".
@@ -7,13 +9,14 @@ public class classHuman {
   //
   //Создайте классы "Мужчина" и "Женщина", которые будут наследниками класса "Человек".
   //
-  //Попытка вывести их на экран должна приводить к выводу строки "Мужчина по имени ..." или "Женщина по имени ..."
+  //Попытка вывести их на экран должна приводить к выводу строки "Мужчина по имени ..."
+  // или "Женщина по имени ..."
   //
   //Метод "приветствие" класса "Женщина" должен выводить строку: "Я родилась!"
 
  private String name;
 
-  public void Human(String name) {
+  public Human(String name) {
     this.name = name;
   }
 
@@ -24,7 +27,17 @@ public class classHuman {
   public void setName(String name) {
     this.name = name;
   }
+  //public class StringNameOut {
+  //    public static void main(String[] args) {
+  //        Human max = new Human("Макс");
+  //        String out = "Java объект: " + max;
+  //        System.out.println(out);
+  //        // Вывод: Java объект: Человек с именем Макс
+  //    }
 
+  public void humanGreat() {
+    System.out.println("Я родился!");
+  }
 
   @Override
   public String toString() {
