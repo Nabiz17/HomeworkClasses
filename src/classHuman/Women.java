@@ -7,6 +7,10 @@ public class Women extends Human {
   }
 
   @Override
+  public void humanGreat() {
+    System.out.println("Я родилась!");
+  }
+  @Override
   public String toString() {
     return "Женщина по имени " + getName();
   }
