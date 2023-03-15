@@ -1,8 +1,8 @@
 package classHuman;
 
-public class Women extends Human {
+public class Woman extends Human {
 
-  public Women(String name) {
+  public Woman(String name) {
     super(name);
   }
 
